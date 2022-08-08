@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635335334034",
+    "project_id": "digital-receipts-358720",
+    "storage_bucket": "digital-receipts-358720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635335334034:android:41ca7d5fc241d7692e6e4b",
+        "android_client_info": {
+          "package_name": "br.org.sidi.digitalreceipts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635335334034-vbhbmnb6hu3oomnk2bppqrcbullgsrtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV9xgdGgjUXh8VQq_mgC3y8eXL0akpKuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635335334034-vbhbmnb6hu3oomnk2bppqrcbullgsrtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
