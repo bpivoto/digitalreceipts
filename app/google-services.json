@@ -14,8 +14,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "635335334034-vbhbmnb6hu3oomnk2bppqrcbullgsrtq.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "635335334034-v6qnkb2ueidcsdtultacr1h4aqeq5ms5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.org.sidi.digitalreceipts",
+            "certificate_hash": "e172cc2aaa6a068d336e039531979175e92aa78a"
+          }
         }
       ],
       "api_key": [

@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         // init googleSignInClient
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestIdToken("635335334034-tmiqipvma38pvau2m25jmgrn3m8phvpt.apps.googleusercontent.com")
+            .requestIdToken("635335334034-vbhbmnb6hu3oomnk2bppqrcbullgsrtq.apps.googleusercontent.com")
             .requestEmail()
             .build()
         googleSignInClient = GoogleSignIn.getClient(this, gso)
@@ -84,6 +84,8 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
         var currentUser = auth.getCurrentUser()
+        Toast.makeText(baseContext, "Current user: ${currentUser?.email}",
+            Toast.LENGTH_LONG).show()
         //TODO
         //updateUI(currentUser);
     }
